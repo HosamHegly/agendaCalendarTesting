@@ -2,11 +2,14 @@
 This repository contains QA automation tests for the AgendaCalendar Android app, implemented using Python and Appium. The project adopts the Page Object Model (POM) design pattern to ensure maintainability and readability. The project structure is divided into three main parts: Infrastructure, Login, and Testing, to encapsulate different aspects of the application under test.
 
 ## Project Structure
-### Infrastructure: This directory contains the core components and utilities that support the automation framework, including driver setup, configuration management, and common utilities.
+### Infrastructure : 
+This directory contains the core components and utilities that support the automation framework, including driver setup, configuration management, and common utilities.
 
-### Logic: This directory utilizes the POM for page elements and interactions.
+### Logic: 
+This directory utilizes the POM for page elements and interactions.
 
-### Testing: This directory holds the actual test cases for the application. It is further organized into subdirectories, each representing a different feature or aspect of the application to be tested.
+### Testing: 
+This directory holds the actual test cases for the application. It is further organized into subdirectories, each representing a different feature or aspect of the application to be tested.
 
 ## Getting Started
 ### Prerequisites
