@@ -33,7 +33,11 @@ python3 test.py
 Contributions are welcome! If you have improvements or bug fixes, please follow the standard GitHub flow:
 
 1.Fork the repository
+
 2.Create your feature branch (git checkout -b feature/AmazingFeature)
+
 3.Commit your changes (git commit -am 'Add some AmazingFeature')
+
 4.Push to the branch (git push origin feature/AmazingFeature)
+
 5.Open a Pull Request
