@@ -27,7 +27,7 @@ cd agendaCalendarTesting
 
 ## Running Tests
 Navigate to the Test directory and run this command
-python3 test.py
+python -m unitest test.py
 
 ## Contributing
 Contributions are welcome! If you have improvements or bug fixes, please follow the standard GitHub flow:
