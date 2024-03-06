@@ -4,19 +4,12 @@ from appium import webdriver
 from appium.webdriver.common.appiumby import AppiumBy
 # Import Appium UiAutomator2 driver for Android platforms (AppiumOptions)
 from appium.options.android import UiAutomator2Options
-
+from config_reader import *
 
 class deviceWrapper():
 
     def __init__(self):
-        capabilities = dict(
-            platformName="Android",
-            deviceName="R5CR12HGYMY",
-            platformVersion="14.0",
-            automationName="UiAutomator2",
-            appPackage="com.claudivan.taskagenda",
-            appActivity=".Activities.MainActivity"
-        )
+        capabilities = get_config_data()
 
         appium_server_url = 'http://127.0.0.1:4723'
 
